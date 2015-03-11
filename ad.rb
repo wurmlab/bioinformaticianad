@@ -15,6 +15,9 @@ mytext.each_char  do |char|
     colored = !colored
     print colored ? "\033[33m" : "\033[0m"
     next
+  elsif char == "?"
+    print "\033[5m?\033[25m\033[0m"
+    next
   end
 
   sleeptime = 0
