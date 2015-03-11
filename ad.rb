@@ -1,15 +1,29 @@
-code = File.open("ad.txt")
-system 'cls'
-system("color 0a")
+#!env ruby
+require 'colorize'
 
-code.each_char  do |char|
+mytext = File.open("ad.txt")
+system 'cls'
+system("color 3f")
+
+colored = FALSE
+mytext.each_char  do |char|
+  if char == "*"
+    colored = !colored
+    print colored ? "\033[1m\033[34m" : "\033[0m"
+    next
+  elsif char == "`"
+    colored = !colored
+    print colored ? "\033[33m" : "\033[0m"
+    next
+  end
+
   sleeptime = 0
   if char == "\n"
-    sleeptime = rand(100) / 3000.0
+    sleeptime = rand(100) / 1000.0
   elsif char ==""
-    sleeptime = rand(100) / 1000.0
+    sleeptime = rand(100) / 5000.0
   else
-    sleeptime = rand(100) / 1000.0
+    sleeptime = rand(100) / 3000.0
   end
   sleep sleeptime
   print char
