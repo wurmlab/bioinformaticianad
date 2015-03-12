@@ -22,11 +22,11 @@ mytext.each_char  do |char|
 
   sleeptime = 0
   if char == "\n"
-    sleeptime = rand(100) / 1000.0
+    sleeptime = rand(200) / 1000.0
   elsif char ==""
-    sleeptime = rand(100) / 5000.0
+    sleeptime = rand(200) / 5000.0
   else
-    sleeptime = rand(100) / 3000.0
+    sleeptime = rand(200) / 3000.0
   end
   sleep sleeptime
   print char

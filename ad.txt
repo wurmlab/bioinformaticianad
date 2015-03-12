@@ -1,8 +1,8 @@
 
 Were hiring a *GENOME BIOINFORMATICIANHACKER* to:             
  → Empower biologist researchers.
- → Push Big Ass Servers and HPC to their limits.
- → Evangelise open source, reproducibility.
+ → Push Big Ass Servers (15 x 512GB-RAM) and HPC to their limits.
+ → Evangelise open source, open data, reproducibility.
  → Contribute to cutting-edge science.
  
 Logistics: 
@@ -13,4 +13,4 @@ Logistics:
 
 Questions? PM @yannick__ or y.wurm@qmul.ac.uk
 
-*http://goo.gl/2nwKwO*
+*http://bit.ly/genehack*
