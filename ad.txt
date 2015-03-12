@@ -1,9 +1,9 @@
 
 Were hiring a *GENOME BIOINFORMATICIANHACKER* to:             
- → Empower biologist researchers.
- → Push Big Ass Servers (15 x 512GB-RAM) and HPC to their limits.
- → Evangelise open source, open data, reproducibility.
  → Contribute to cutting-edge science.
+ → Empower biologist researchers.
+ → Push the limits of Big Ass Servers (40+core .5+TB RAM) & HPC.
+ → Evangelise open source, open data, reproducibility.
  
 Logistics: 
  → `Apply by March 27th`.
